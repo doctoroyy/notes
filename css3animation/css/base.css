@@ -16,7 +16,7 @@
 }
 
 .spinner .rect2 {
-  animation-delay: -1.1s;
+  animation-delay: -1.1s; /* https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-delay */
 }
 
 .spinner .rect3 {
