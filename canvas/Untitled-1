@@ -1,0 +1,163 @@
+.
+├── enable-php.conf
+├── enable-php-pathinfo.conf
+├── example
+│   ├── enable-apache-ssl-vhost-example.conf
+│   ├── enable-lnmpa-ssl-vhost-example.conf
+│   ├── enable-ssl-example.conf
+│   ├── magento2-example.conf
+│   ├── nextcloud-example.conf
+│   ├── nginx-reverse-proxy-example.conf
+│   └── owncloud-example.conf
+├── fastcgi.conf
+├── fastcgi.conf.default
+├── fastcgi_params
+├── fastcgi_params.default
+├── koi-utf
+├── koi-win
+├── mime.types
+├── mime.types.default
+├── nginx.conf
+├── nginx.conf.default
+├── pathinfo.conf
+├── rewrite
+│   ├── codeigniter.conf
+│   ├── dabr.conf
+│   ├── dedecms.conf
+│   ├── discuz.conf
+│   ├── discuzx2.conf
+│   ├── discuzx.conf
+│   ├── drupal.conf
+│   ├── ecshop.conf
+│   ├── joomla.conf
+│   ├── laravel.conf
+│   ├── none.conf
+│   ├── other.conf
+│   ├── phpwind.conf
+│   ├── sablog.conf
+│   ├── shopex.conf
+│   ├── thinkphp.conf
+│   ├── typecho2.conf
+│   ├── typecho.conf
+│   ├── wordpress.conf
+│   ├── wp2.conf
+│   └── yii2.conf
+├── scgi_params
+├── scgi_params.default
+├── ssl
+│   ├── api.doctoroyy.cf
+│   │   ├── api.doctoroyy.cf.cer
+│   │   ├── api.doctoroyy.cf.conf
+│   │   ├── api.doctoroyy.cf.csr
+│   │   ├── api.doctoroyy.cf.csr.conf
+│   │   ├── api.doctoroyy.cf.key
+│   │   ├── backup
+│   │   ├── ca.cer
+│   │   └── fullchain.cer
+│   ├── api.doctoroyy.net
+│   │   ├── api.doctoroyy.net.cer
+│   │   ├── api.doctoroyy.net.conf
+│   │   ├── api.doctoroyy.net.csr
+│   │   ├── api.doctoroyy.net.csr.conf
+│   │   ├── api.doctoroyy.net.key
+│   │   ├── backup
+│   │   ├── ca.cer
+│   │   └── fullchain.cer
+│   ├── blog.doctoroyy.cf
+│   │   ├── backup
+│   │   ├── blog.doctoroyy.cf.cer
+│   │   ├── blog.doctoroyy.cf.conf
+│   │   ├── blog.doctoroyy.cf.csr
+│   │   ├── blog.doctoroyy.cf.csr.conf
+│   │   ├── blog.doctoroyy.cf.key
+│   │   ├── ca.cer
+│   │   └── fullchain.cer
+│   ├── blog.doctoroyy.net
+│   │   ├── backup
+│   │   ├── blog.doctoroyy.net.cer
+│   │   ├── blog.doctoroyy.net.conf
+│   │   ├── blog.doctoroyy.net.csr
+│   │   ├── blog.doctoroyy.net.csr.conf
+│   │   ├── blog.doctoroyy.net.key
+│   │   ├── ca.cer
+│   │   └── fullchain.cer
+│   ├── book.doctoroyy.cf
+│   │   ├── backup
+│   │   ├── book.doctoroyy.cf.cer
+│   │   ├── book.doctoroyy.cf.conf
+│   │   ├── book.doctoroyy.cf.csr
+│   │   ├── book.doctoroyy.cf.csr.conf
+│   │   ├── book.doctoroyy.cf.key
+│   │   ├── ca.cer
+│   │   └── fullchain.cer
+│   ├── book.doctoroyy.net
+│   │   ├── backup
+│   │   ├── book.doctoroyy.net.cer
+│   │   ├── book.doctoroyy.net.conf
+│   │   ├── book.doctoroyy.net.csr
+│   │   ├── book.doctoroyy.net.csr.conf
+│   │   ├── book.doctoroyy.net.key
+│   │   ├── ca.cer
+│   │   └── fullchain.cer
+│   ├── dhparam.pem
+│   ├── free.doctoroyy.cf
+│   │   ├── backup
+│   │   ├── ca.cer
+│   │   ├── free.doctoroyy.cf.cer
+│   │   ├── free.doctoroyy.cf.conf
+│   │   ├── free.doctoroyy.cf.csr
+│   │   ├── free.doctoroyy.cf.csr.conf
+│   │   ├── free.doctoroyy.cf.key
+│   │   └── fullchain.cer
+│   ├── free.doctoroyy.net
+│   │   ├── backup
+│   │   ├── ca.cer
+│   │   ├── free.doctoroyy.net.cer
+│   │   ├── free.doctoroyy.net.conf
+│   │   ├── free.doctoroyy.net.csr
+│   │   ├── free.doctoroyy.net.csr.conf
+│   │   ├── free.doctoroyy.net.key
+│   │   └── fullchain.cer
+│   ├── visualgo.doctoroyy.cf
+│   │   ├── backup
+│   │   ├── ca.cer
+│   │   ├── fullchain.cer
+│   │   ├── visualgo.doctoroyy.cf.cer
+│   │   ├── visualgo.doctoroyy.cf.conf
+│   │   ├── visualgo.doctoroyy.cf.csr
+│   │   ├── visualgo.doctoroyy.cf.csr.conf
+│   │   └── visualgo.doctoroyy.cf.key
+│   └── visualgo.doctoroyy.net
+│       ├── backup
+│       ├── ca.cer
+│       ├── fullchain.cer
+│       ├── visualgo.doctoroyy.net.cer
+│       ├── visualgo.doctoroyy.net.conf
+│       ├── visualgo.doctoroyy.net.csr
+│       ├── visualgo.doctoroyy.net.csr.conf
+│       └── visualgo.doctoroyy.net.key
+├── uwsgi_params
+├── uwsgi_params.default
+├── vhost
+│   ├── api.doctoroyy.cf.conf
+│   ├── api.doctoroyy.net.conf
+│   ├── blog.doctoroyy.cf.conf
+│   ├── blog.doctoroyy.net.conf
+│   ├── book.doctoroyy.cf.conf
+│   ├── book.doctoroyy.net.conf
+│   ├── free.doctoroyy.net.conf
+│   ├── visualgo.doctoroyy.cf.conf
+│   └── visualgo.doctoroyy.net.conf
+└── win-utf
+
+proxy_pass http://127.0.0.1:3000;
+proxy_http_version    1.1;
+proxy_cache_bypass    $http_upgrade;
+proxy_set_header Upgrade            $http_upgrade;
+proxy_set_header Connection         "upgrade";
+proxy_set_header Host               $host;
+proxy_set_header X-Real-IP          $remote_addr;
+proxy_set_header X-Forwarded-For    $proxy_add_x_forwarded_for;
+proxy_set_header X-Forwarded-Proto  $scheme;
+proxy_set_header X-Forwarded-Host   $host;
+proxy_set_header X-Forwarded-Port   $server_port;

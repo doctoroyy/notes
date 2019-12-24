@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  
+}
+
+.container #box {
+  position: absolute;
+  border: 1px solid #f7f7f7;
+  width: 200px;
+  height: 200px;
+  background: darkkhaki;
+}
