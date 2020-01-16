@@ -7,5 +7,4 @@ import (
 func main() {
 	start := time.Now()
 	println(start.String())
-	println(date)
 }
