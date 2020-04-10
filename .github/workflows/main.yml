@@ -21,15 +21,19 @@ jobs:
     steps:
       - name: 'Checkout codes'
         uses: actions/checkout@v1
+      - name: Local changes
+        run: |
+          echo "2394234" > test.ini
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add imdb_top_250.xlsx
-          git add imdb_top_250.html
+          git add test.ini
           git commit -m "Add changes" -a
           git pull
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.PAGES_TOKEN }}
+          repository: doctoroyy/doctoroyy.github.io
+          
