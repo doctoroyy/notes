@@ -29,5 +29,5 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.PAGES_TOKEN }}
-        repository: 'doctoroyy/doctoroyy.github.io'
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages
