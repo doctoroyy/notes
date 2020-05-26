@@ -1,0 +1,10 @@
+var o = {
+  func1: function() {
+    return 1;
+  },
+  func2: function() {
+    console.log(o.func1())
+  }
+}
+
+o.func2()
