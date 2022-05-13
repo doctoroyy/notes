@@ -46,12 +46,15 @@ function createArr() {
   }
   return arr;
 }
-let arr = createArr();
+// let arr = createArr();
+const arr = [3, 1, 2, 4, 8, -1, 7, 6];
+
 // console.log(arr)
 const last = +new Date();
-find_top_k(arr, 0, arr.length - 1, 10);
+const k = 1;
+find_top_k(arr, 0, arr.length - 1, k - 1);
 // quick_sort(arr, 0, arr.length)
-const now = +new Date();
-console.log(now - last);
+// const now = +new Date();
+// console.log(now - last);
 
-console.log(arr.slice(0, 10))
+console.log(arr[k - 1])

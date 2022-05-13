@@ -17,6 +17,7 @@ function partition(arr, low, high) {
 function quick_sort(arr, low, high) {
   if (low < high) {
     let m = partition(arr, low, high);
+    console.log(m);
     quick_sort(arr, low, m - 1);
     quick_sort(arr, m + 1, high);
   }
