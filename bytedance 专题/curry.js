@@ -14,4 +14,3 @@ const add = (a, b, c) => a + b + c;
 const add1 = curry(add);
 
 console.log(add1(1)(2)(3));
-

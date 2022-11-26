@@ -42,7 +42,9 @@ function timeout(time) {
 const scheduler = new Scheduler();
 const addTask = (time, order) => {
   scheduler
-    .add(() => timeout(time))
+    .add(
+      () => timeout(time)
+    )
     .then(() => console.log(order));
 };
 
